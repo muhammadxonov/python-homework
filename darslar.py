@@ -398,15 +398,6 @@ Created on Tue Sep  2 08:54:16 2025
 # talaba_0['ism'] = 'abdulloh'
 
 # print(talaba_0)
-     
-
-
-# talaba_1={}
-# talaba_1['ism']='qobil rasulov'
-# talaba_1['kurs']=3
-# talaba_1['yosh']=20
-# talaba_1['ism']='abdulloh rasulov'
-# print(f"Talaba {talaba_1['ism'].title()} {talaba_1['kurs']}-kurs")
 
 
 
@@ -428,10 +419,19 @@ Created on Tue Sep  2 08:54:16 2025
 # print(f"{ota_1['ikki']} {ona_1['uch']} {aka_2['ikki']}")
 
 
-lugat={'integer':'butun son malumot turi','float':'10lik son malumot turi','string':'matnli malumot turi','if':'agar','else':'aks xolda'}
+# lugat={'integer':'butun son malumot turi','float':'10lik son malumot turi','string':'matnli malumot turi','if':'agar','else':'aks xolda'}
 
 
+talaba_1={}
+talaba_1['ism']='qobil rasulov'
+talaba_1['kurs']=3
+talaba_1['yosh']=20
+talaba_1['ism']='abdulloh rasulov'
+del talaba_1['yosh']
+print(f"Talaba {talaba_1['ism'].title()} {talaba_1['kurs']}-kurs")
 
+en_uz={'apple':'olma','appricot':'o\'rik','banana':'banan'}
+print(en_uz)
     
 
 
