@@ -422,13 +422,13 @@ Created on Tue Sep  2 08:54:16 2025
 # lugat={'integer':'butun son malumot turi','float':'10lik son malumot turi','string':'matnli malumot turi','if':'agar','else':'aks xolda'}
 
 
-talaba_1={}
-talaba_1['ism']='qobil rasulov'
-talaba_1['kurs']=3
-talaba_1['yosh']=20
-talaba_1['ism']='abdulloh rasulov'
-del talaba_1['yosh']
-print(f"Talaba {talaba_1['ism'].title()} {talaba_1['kurs']}-kurs")
+# talaba_1={}
+# talaba_1['ism']='qobil rasulov'
+# talaba_1['kurs']=3
+# talaba_1['yosh']=20
+# talaba_1['ism']='abdulloh rasulov'
+# del talaba_1['yosh']
+# print(f"Talaba {talaba_1['ism'].title()} {talaba_1['kurs']}-kurs")
 
 en_uz={'apple':'olma','appricot':'o\'rik','banana':'banan'}
 print(en_uz)
