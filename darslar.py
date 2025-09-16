@@ -458,20 +458,83 @@ Created on Tue Sep  2 08:54:16 2025
 
 
 
+# talaba_0={'ism':'alijon','familiya':'shamsiyev','yosh':'22','faultet':'matematika','kurs':'4'}
+# print(talaba_0.items())
+# for kalit, qiymat in talaba_0.items():
+#     print(f"Kalit : {kalit}")
+#     print(f"Qiymat : {qiymat}\n")
 
 
+# telefonlar={ 
+#     'ali':'IPhone X',
+#     'vali':'galaxy s9',
+#     'olim':'mi 10 pro',
+#     'orif':'nokia 3310',
+#     'anvar':'pixel 3xl'
+#     } 
+# for k, q in telefonlar.items():
+#     print(f"{k.title()}ning telefoni {q}")
+
+
+# mahsulotlar={
+#     'olma':10000,
+#     'anor':20000,
+#     'uzum':40000,
+#     'anjir':25000,
+#     'shaftoli':30000
+#     }
+#print(mahsulotlar.keys())
+# print("Dokondagi mahsulotlar:")
+# for mahsulot in mahsulotlar.keys():
+#     print(mahsulot.title())
+    
+    
+    
+# mahsulotlar={
+#     'olma':10000,
+#     'anor':20000,
+#     'uzum':40000,
+#     'anjir':25000,
+#     'shaftoli':30000
+#     }
+# bozorlik={'anor','uzum','non','baliq'}
+# for mahsulot in mahsulotlar:
+#     if mahsulot in bozorlik:
+#         print(f"{mahsulot.title()}ning narxi {mahsulotlar[mahsulot]}")
+    
+# for buyum in bozorlik:
+#     if buyum not in mahsulotlar:
+#         print(f"Iltimos dokoningizga {buyum } xam olib kelib qoying")
+    
+# print("Do'konimizdagi mahsulotlar:")
+# for mahsulot in sorted(mahsulotlar):
+#     print(mahsulot.title())    
 
     
+#values
+# print("Foydalanuvchilar quyidagi telefonlar ishlatishadi: ")
+# for tel in telefonlar.values():
+#     print(tel)
+    
+    
+# telefonlar={
+#      'ali':'IPhone X',
+#      'vali':'galaxy s9',
+#      'olim':'mi 10 pro',
+#      'orif':'nokia 3310',
+#      'hamida':'galaxy s9',
+#      'maryam':'huawei p30',
+#      'tohir':'IPhone X',
+#      'umar':'IPhone X'}
+# print("Foydalanuvchilar quyidagi telefonlarni ishlatishadi: ")
+# for tel in set(telefonlar.values()):
+#     print(tel)  
 
 
-    
-    
+# toys={"bear","doll","ball","bear","lamp","car"}
+# print(toys)    
 
-    
-    
-    
-    
-        
+
     
 
 
