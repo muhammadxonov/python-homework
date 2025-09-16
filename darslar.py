@@ -534,9 +534,142 @@ Created on Tue Sep  2 08:54:16 2025
 # toys={"bear","doll","ball","bear","lamp","car"}
 # print(toys)    
 
+# poytaxtlar={
+#         'Fransiya':'Parij',
+#         'Germaniya':'Berlin',
+#         'Italiya':'Rim',
+#         'Rossiya':'Moskva',
+#         'Xitoy':'Pekin',
+#         'Yaponiya':'Tokiyo',
+#         'Hindiston':'Dehli',
+#         'AQSH':'Vashington',
+#         'Buyuk Britaniya':'London',
+#         'Turkiya':'Anqara'
+#         }
+# print("Davlatlar:")
+# for davlat in sorted(poytaxtlar.keys()):
+#     print(davlat)
+    
+# print()
+
+# print("Poytaxtlar:")
+# for poytaxt in sorted(poytaxtlar.values()):
+#     print(poytaxt)
+
+
 
     
+# poytaxtlar={
+#         'Fransiya':'Parij',
+#         'Germaniya':'Berlin',
+#         'Italiya':'Rim',
+#         'Rossiya':'Moskva',
+#         'Xitoy':'Pekin',
+#         'Yaponiya':'Tokiyo',
+#         'Hindiston':'Dehli',
+#         'AQSH':'Vashington',
+#         'Buyuk Britaniya':'London',
+#         'Turkiya':'Anqara'
+#         }
+# sorovnoma=input("Davlat nomini kiriting:\n>>>")
+# if sorovnoma in poytaxtlar :
+#     print(poytaxtlar[sorovnoma])
+# else:
+#     print("Bizda bunday malumot yo'q")
 
+
+# car_0={
+#        'model':'lacetti',
+#        'rang':'oq',
+#        'yil':2018,
+#        'narh':13000,
+#        'km':50000,
+#        'korobka':'avtomat'
+#        }
+
+# car_1={
+#        'model':'nexia 3',
+#        'rang':'qora',
+#        'yil':2015,
+#        'narh':9000,
+#        'km':89000,
+#        'korobka':'mexanika'
+#        }
+
+# car_2={
+#        'model':'gentra',
+#        'rang':'qizil',
+#        'yil':2019,
+#        'narh':15000,
+#        'km':20000,
+#        'korobka':'mexanika'
+#        }
+
+# cars=[car_0 , car_1 , car_2]
+# # for car in cars:
+# #     print(f"{car['model'].title()},"
+# #           f"{car['rang']} rang ,"
+# #           f"{car['yil']}-yil , {car['narh']}$")
+
+# print(f"{cars[2]['rang'].title()} "
+#       f"{cars[2]['model']}")
+
+
+malibus=[]
+for n in range(10):
+    new_car = {
+        'model':'malibu',
+        'rang':None,
+        'yil':2025,
+        'km':0,
+        'korobka':'avto'
+        }
+    malibus.append(new_car)
+# for malibu in malibus:
+#     print(malibu)
+    
+for malibu in malibus[:3]:
+    malibu['rang']='qizil'
+    
+# for malibu in malibus:
+#     print(malibu)
+
+# for malibu in malibus[3:6]:
+#     malibu['rang']='qora'
+    
+# for malibu in malibus[6:]:
+#     malibu['rang']='qora'
+#     malibu['korobka']='mexanika'
+    
+# # for malibu in malibus:
+# #     print(malibu)
+    
+# for malibu in malibus:
+#     if malibu['korobka']=='avto':
+#         malibu['narh']=40000
+#     else:
+#         malibu['narh']=35000 
+        
+# for malibu in malibus:
+#     print(malibu)
+#     print()
+
+
+dasturchilar={
+    'ali':['python','c++'],
+    'vali':['html','css','js'],
+    'hasan':['php','sql'],
+    'husan':['python','php'],
+    'maryam':['c++','c#']
+    }
+for ism , tillar in dasturchilar.items():
+    print(f"\n{ism.title()} quyidagi dasturlash tillarini biladi: " , end='')
+    for til in tillar:
+        print(f'{til.upper()}' , end=' ')
+    
+    
+
+        
 
 
     
