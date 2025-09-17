@@ -591,7 +591,7 @@ Created on Tue Sep  2 08:54:16 2025
 #        'model':'nexia 3',
 #        'rang':'qora',
 #        'yil':2015,
-#        'narh':9000,
+#        'narh':9000, 
 #        'km':89000,
 #        'korobka':'mexanika'
 #        }
@@ -615,21 +615,21 @@ Created on Tue Sep  2 08:54:16 2025
 #       f"{cars[2]['model']}")
 
 
-malibus=[]
-for n in range(10):
-    new_car = {
-        'model':'malibu',
-        'rang':None,
-        'yil':2025,
-        'km':0,
-        'korobka':'avto'
-        }
-    malibus.append(new_car)
+# malibus=[]
+# for n in range(10):
+#     new_car = {
+#         'model':'malibu',
+#         'rang':None,
+#         'yil':2025,
+#         'km':0,
+#         'korobka':'avto'
+#         }
+#     malibus.append(new_car)
 # for malibu in malibus:
 #     print(malibu)
     
-for malibu in malibus[:3]:
-    malibu['rang']='qizil'
+# for malibu in malibus[:3]:
+#     malibu['rang']='qizil'
     
 # for malibu in malibus:
 #     print(malibu)
@@ -723,11 +723,22 @@ for malibu in malibus[:3]:
 
 
 
-sonlar=list(range(1,11))
-for son in sonlar:
-    if son == 7:
-        continue 
-    print(f"{son}ning kvadrati {son**2}ga teng")
+# sonlar=list(range(1,11))
+# for son in sonlar:
+#     if son == 7:
+#         continue 
+#     print(f"{son}ning kvadrati {son**2}ga teng")
+
+
+
+kitob = "Siz yoqtirgan kitoblarni kiriting:"
+while True:
+    savol=input(kitob)
+    if savol == 'exit':
+        break
+    
+
+    
 
 
 
