@@ -655,17 +655,114 @@ for malibu in malibus[:3]:
 #     print()
 
 
-dasturchilar={
-    'ali':['python','c++'],
-    'vali':['html','css','js'],
-    'hasan':['php','sql'],
-    'husan':['python','php'],
-    'maryam':['c++','c#']
-    }
-for ism , tillar in dasturchilar.items():
-    print(f"\n{ism.title()} quyidagi dasturlash tillarini biladi: " , end='')
-    for til in tillar:
-        print(f'{til.upper()}' , end=' ')
+# dasturchilar={
+#     'ali':['python','c++'],
+#     'vali':['html','css','js'],
+#     'hasan':['php','sql'],
+#     'husan':['python','php'],
+#     'maryam':['c++','c#']
+#     }
+# for ism , tillar in dasturchilar.items():
+#     print(f"\n{ism.title()} quyidagi dasturlash tillarini biladi: " , end='')
+#     for til in tillar:
+#         print(f'{til.upper()}' , end=' ')
+
+
+# son=1 
+# while son<=5:
+#     print(son , end=' ')
+#     son+=1 
+# print("Dastur tugadi")
+
+# print("Kiritilgan soni kvadratini qaytaruvchi dastur")
+# savol="Istalgan soni kiriting"
+# savol+="(dasturni toxtatish uchun 'exit' deb yozing)\n>>>"
+# qiymat=''
+# while qiymat != 'exit':
+#     qiymat=input(savol)
+#     if qiymat != 'exit':
+#         print(float(qiymat)**2)
+# print("Dastur tugadi")
+
+
+
+
+# print("Kiritilgan sonni kvadratini chiqaruvchi dastur")
+# savol="istalgan sonni kiriting"
+# savol+="(dasurni toxtatish uchun 'exit' deb yozing)\n>>>"
+# ishora=True
+# while ishora:
+#     qiymat=input(savol)
+#     if qiymat == 'exit':
+#         ishora = False
+#     else:
+#         print(float(qiymat)**2)
+        
+# print("Dastur tugadi")
+
+
+# print("Kiritilgan sonni kvadratini chiqaruvchi dastur")
+# savol="istalgan sonni kiriting"
+# savol+="(dasurni toxtatish uchun 'exit' deb yozing)\n>>>"
+# while True:      #cheksiz tsikl:
+#     qiymat=input(savol)
+#     if qiymat == 'exit':
+#          break
+#     else:
+#         print(float(qiymat)**2)
+# print("Dastur tugadi")
+
+
+# sonlar=list(range(1,11))
+# for son in sonlar:
+#     if son == 7:
+#         break 
+#     print(f"{son}ning kvadrati {son**2}ga teng")
+
+
+
+
+
+sonlar=list(range(1,11))
+for son in sonlar:
+    if son == 7:
+        continue 
+    print(f"{son}ning kvadrati {son**2}ga teng")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
     
     
 
@@ -678,149 +775,3 @@ for ism , tillar in dasturchilar.items():
     
         
         
-
-     
-    
-    
-
-
-
-    
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
