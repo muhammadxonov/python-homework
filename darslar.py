@@ -776,6 +776,51 @@ Created on Tue Sep  2 08:54:16 2025
 # malumot={ismi:qiziqishlar}
 # print(malumot)
 
+# savol="Siz yoqtirgan kitob nomini yozing:\n>>>"
+# kitoblar=[]
+# while True:
+#     qiymat=input(savol)
+#     if qiymat.lower() == 'stop':
+#         break
+#     else:
+#         kitoblar.append(qiymat)
+# print("Siz yoqtirgan kitoblar royxati:")       
+# for kitob in kitoblar:
+#     print(f"{kitob}")
+    
+
+narxlar={"2000 so'm":(0,7),
+         "3000 so'm":(7,19),
+         "10000 so'm":(18,66),
+         "Bepul":(65, 160)
+         }
+savol='Yoshingizni kiriting'
+savol+="(dasturdan chiqish uchun 'exit' yoki 'quit' deb yozing)"
+while True:
+    yosh=input(savol)
+    yosh=int(yosh)
+    if yosh.lower() == 'exit'or yosh == 'quit':
+        break
+    elif yosh < 7:
+        print(narxlar[key][0])
+    elif yosh == narxlar[value][1]:
+        print(narxlar[key][1])
+    elif yosh == narxlar[value][2]:
+        print(narxlar[key][2])
+    elif yosh > 65:
+        print(narxlar[key][3])
+    
+        
+        
+    
+        
+    
+        
+    
+
+    
+    
+    
 
 
 
