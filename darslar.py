@@ -731,11 +731,52 @@ Created on Tue Sep  2 08:54:16 2025
 
 
 
-kitob = "Siz yoqtirgan kitoblarni kiriting:"
-while True:
-    savol=input(kitob)
-    if savol == 'exit':
-        break
+# kitob = "Siz yoqtirgan kitoblarni kiriting:"
+# while True:
+#     savol=input(kitob)
+#     if savol == 'exit':
+#         break
+
+
+# olimlar={
+#     "Alisher Navoiy":{"ismi":"Mir Alisher Navoiy",
+#                       "tugilgan":"1441-yil 9- fevral",
+#                       "tugilgan_joy":"Hirot",
+#                       "mutaxassisligi":"Buyuk shoir"
+#                       },
+#     "Abdurahmon Jomiy":{"ismi":"Abdurahmon Nuriddin Jomiy",
+#                         "tugilgan":"1414-yil",
+#                         "tugilgan_joy":"Eron",
+#                         "mutaxassisligi":"shoir"
+#                         },
+#     "Abdulla Qodiriy":{"ismi":"Abdulla Qodiriy",
+#                         "tugilgan":"1894-yil 10-aprel",
+#                         "tugilgan_joy":"Ozbekiston",
+#                         "mutaxassisligi":"yozuvchi"
+#                         }
+#     }
+    
+    
+# olimlar['Alisher Navoiy']['asar']='Xamsa'
+# olimlar['Abdurahmon Jomiy']['asar']='Bahriston'
+# olimlar['Abdulla Qodiriy']['asar']='O\'tkan kunlar'
+
+# for ismi , info in olimlar.items():
+#     print(f"{info['ismi'].title()} {info['tugilgan']} {info['tugilgan_joy']}da tugilgan .\n"
+#           f"Mutaxassisligi:{info['mutaxassisligi']}\n"
+#           f"Uning yozgan mashxur asarlaridan biri {info['asar']}\n")
+
+
+ismi=input("ismingizni kiriting:\n>>>")
+qiziqishlar=[]
+for i in range(3):
+    kino=input("Siz sevgan kino nomini kiriting:\n>>>")
+    qiziqishlar.append(kino)
+malumot={ismi:qiziqishlar}
+print(malumot)
+
+
+   
     
 
     
