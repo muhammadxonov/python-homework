@@ -767,14 +767,17 @@ Created on Tue Sep  2 08:54:16 2025
 #           f"Uning yozgan mashxur asarlaridan biri {info['asar']}\n")
 
 
-ismi=input("Ismingizni kiriting:\n>>>")
-tartiblar=['birinchi','ikkinchi','uchinchi']
-qiziqishlar=[]
-for i in range(3):
-    kino=input(f"Siz sevgan {tartiblar[i]} kino nomini kiriting:\n>>>")
-    qiziqishlar.append(kino)
-malumot={ismi:qiziqishlar}
-print(malumot)
+# ismi=input("Ismingizni kiriting:\n>>>")
+# tartiblar=['birinchi','ikkinchi','uchinchi']
+# qiziqishlar=[]
+# for i in range(3):
+#     kino=input(f"Siz sevgan {tartiblar[i]} kino nomini kiriting:\n>>>")
+#     qiziqishlar.append(kino)
+# malumot={ismi:qiziqishlar}
+# print(malumot)
+
+
+
 
 
    
