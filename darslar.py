@@ -858,14 +858,36 @@ Created on Tue Sep  2 08:54:16 2025
 
 
 
-dostlar={}
-ishora=True
-while ishora:
-    ism="do'stingizni ismini kiriting:\n>>>"
-    yosh="do'stingizni yoshini kiriting:\n>>>"
-    dostlar[ism]=int[yosh]
-    taklif=input("Yana ma'lumot kiritishni xoxlaysizmi?(ha/yo'q)\n>>>")
-    if taklif ==   
+# dostlar={}
+# ishora=True
+# while ishora:
+#     ism=input("do'stingizni ismini kiriting:\n>>>")
+#     yosh=input(f"{ism.title()}ning yoshini kiriting:\n>>>")
+#     dostlar[ism]=int(yosh)
+#     taklif=input("Yana ma'lumot kiritishni xoxlaysizmi?(ha/yo'q)\n>>>")
+#     if taklif == "yo'q":
+#         ishora = False
+        
+# for ism , yosh in dostlar.items():
+    
+#     print(f"{ism.title()} {yosh}da")
+
+
+
+
+
+talabalar=['hasan','husan','asmo','ali']
+baholangan_talabalar={}
+while talabalar:
+    talaba=talabalar.pop()
+    baho=input(f"{talaba}ni bahosini kiriting\n>>>")
+    print(f"{talaba} baholandi\n")
+    
+    baholangan_talabalar[talaba]=int(baho)
+
+print(baholangan_talabalar)    
+        
+
     
 
             
