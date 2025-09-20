@@ -820,21 +820,53 @@ Created on Tue Sep  2 08:54:16 2025
 
 
 
-savol="Kiritilga sonning ildizini qaytaruvchi dastur/\n"
-savol+="Musbat sonni kiriting"
-savol+="(dasturni to'xtatish uchun 'exit' deb yozing):\n>>>"
+# savol="Kiritilga sonning ildizini qaytaruvchi dastur/\n"
+# savol+="Musbat sonni kiriting"
+# savol+="(dasturni to'xtatish uchun 'exit' deb yozing):\n>>>"
 
-while True:
-    qiymat = input(savol)
-    if qiymat=='exit':
-        break
-    elif qiymat<0:
-        qiymat=int(qiymat)
-        continue
-    else:
-        ildiz=float(qiymat)**(0.5)
-        print(f"{qiymat}ning ildizi {ildiz} ga teng")
-        
+# while True:
+#     qiymat = input(savol)
+#     if qiymat=='exit':
+#         break
+#     qiymat=int(qiymat)
+#     if qiymat<0:
+#         continue
+#     else:
+#         ildiz=float(qiymat)**(0.5)
+#         print(f"{qiymat}ning ildizi {ildiz} ga teng")
+
+
+
+
+# print("Yaqin do'stlaringiz ro'yxatini tuzamiz:")
+# ismlar=[]
+# n=1
+
+# while True:       
+#     savol=f"{n}-do'stingizni ismini kiriting:\n>>>"
+#     ism=input(savol)
+#     ismlar.append(ism)
+#     taklif=input("Yana ism qo'shishni xoxlaysizmi?(ha/yo'q)")
+#     n+=1
+#     if taklif != 'ha':
+#         break
+    
+# print("Yaqin do'stlaringiz royxati:")
+# for ism in ismlar:
+#     print(ism.title())
+
+
+
+
+dostlar={}
+ishora=True
+while ishora:
+    ism="do'stingizni ismini kiriting:\n>>>"
+    yosh="do'stingizni yoshini kiriting:\n>>>"
+    dostlar[ism]=int[yosh]
+    taklif=input("Yana ma'lumot kiritishni xoxlaysizmi?(ha/yo'q)\n>>>")
+    if taklif ==   
+    
 
             
             
