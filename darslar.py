@@ -809,14 +809,32 @@ Created on Tue Sep  2 08:54:16 2025
 
 
 
-buyurtmalar=[]
+# buyurtmalar=[]
+# while True:
+#     savol=input("Nima buyurtma qilasiz?\n(Dasturni yakunlash uchun 'quit' deb yozing)\n>>>")
+#     if savol == 'quit':
+#         break
+#     buyurtmalar.append(savol)
+# print(buyurtmalar)
+
+
+
+
+savol="Kiritilga sonning ildizini qaytaruvchi dastur/\n"
+savol+="Musbat sonni kiriting"
+savol+="(dasturni to'xtatish uchun 'exit' deb yozing):\n>>>"
+
 while True:
-    savol=input("Nima buyurtma qilasiz?\n(Dasturni yakunlash uchun 'quit' deb yozing)\n>>>")
-    if savol == 'quit':
+    qiymat = input(savol)
+    if qiymat=='exit':
         break
-    buyurtmalar.append(savol)
-print(buyurtmalar)
-    
+    elif qiymat<0:
+        qiymat=int(qiymat)
+        continue
+    else:
+        ildiz=float(qiymat)**(0.5)
+        print(f"{qiymat}ning ildizi {ildiz} ga teng")
+        
 
             
             
