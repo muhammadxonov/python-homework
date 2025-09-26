@@ -876,88 +876,186 @@ Created on Tue Sep  2 08:54:16 2025
 
 
 
-talabalar=['hasan','husan','asmo','ali']
-baholangan_talabalar={}
-while talabalar:
-    talaba=talabalar.pop()
-    baho=input(f"{talaba}ni bahosini kiriting\n>>>")
-    print(f"{talaba} baholandi\n")
+# talabalar=['hasan','husan','asmo','ali']
+# baholangan_talabalar={}
+# while talabalar:
+#     talaba=talabalar.pop()
+#     baho=input(f"{talaba}ni bahosini kiriting\n>>>")
+#     print(f"{talaba} baholandi\n")
     
-    baholangan_talabalar[talaba]=int(baho)
+#     baholangan_talabalar[talaba]=int(baho)
 
-print(baholangan_talabalar)    
+# print(baholangan_talabalar)    
         
 
-    
 
-            
-            
+#Funksiyalar:
+# def salom_ber(ism):
+#     """Foydalanuvchi ismini qabul qilib,
+#     unga salom beruvchi funksiya"""
+#     print(f"Assalomu alaykum , hurmatli {ism.title()}!")
+# salom_ber("Asmo")
+
+
+# buyurtma=[]
+# ishora = True
+# while True:
+#     buyurtma=input("Nima xarid qilmoqchisiz?\n>>>")
+
+
+
+# mevalar={'anjir','olma','uzum'}
+# mevalar.add('banan')
+# #print(mevalar)
+# mevalar.update(['anor','gilos'])
+# #print(mevalar)
+# mevalar.discard('anjir')
+# #print(mevalar)
+# meva=mevalar.pop()     
+# print(meva)
+# print(mevalar)   
+
+
+# A={1,2,3,4}
+# B={3,4,5,6}
+# c=A|B
+# print(c)
+# D=A.union(B)
+# print(D)
+
+
+# A={1,2,3,4}
+# B={3,4,5,6}
+# # print(A&B)
+# # D=A.intersection(B)
+# # print(D)
+
+# # print(A-B)
+# # D=B.difference(A)
+# # print(D)
+
+# print(A^B)
+# print(A.symmetric_difference(B))
+
+#Homework
+# colors={'red','blue','purple'}
+# colors.add('yellow')
+# colors.update(['white','black','pink'])
+# print(colors)
+
+
+# set1={10, 20, 30, 40, 50}
+# set2={30, 40, 50, 60, 70}
+# # similar=set1&set2
+# # print(similar)
+# # bir_xil=set1.intersection(set2)
+# # print(bir_xil)
+
+# D=set1.symmetric_difference(set2)
+# print(D)
+
+
+# bozorlik = ['choy','non','kartoshka','tuxum','sut']
+# mahsulotlar = ['non','sut','tuxum','olma','un','tuz']
+# bor_mahsulotlar=set(bozorlik).intersection (mahsulotlar)
+# dokonda_yoq=set(bozorlik).difference(mahsulotlar)
+
+# print(f"Do'konda bor maxsulotlar:{bor_mahsulotlar}")
+# print(f"Do'konda yo'q mahsulotlar:{dokonda_yoq}")
+
+# mahsulotlar.extend(dokonda_yoq)
+# print(f"Yangilangan dokon mahsulotlari:{mahsulotlar}")
+
+# yosh = input("Yoshingizni kiriting?\n>>>")
+# try:
+#     yosh = int(yosh)
+#     print(f"siz {2025-yosh} yilda tugilgan ekansiz")
+# except:
+#     print("Butun son kiritmadingiz")
+    
+# print("Dastur tugadi!")
+
+
+
+
+# x , y=5,10
+# try:
+#     y/(x-5)
+# except ZeroDivisionError:
+#     print("0 ga bo'lib bo'lmaydi")
+
+
+# mevalar=['olma','anor','anjir','uzum']
+# try:
+#     print(mevalar[6])
+# except IndexError:
+#     print(f"Ro'yxatda {len(mevalar)} ta meva bor xolos")
+
+
+# if yosh < 20:
+#     pass
+# else:
+#     pass
+
+
+
+
+
+# while True:
+#     yosh = input("Yoshingizni kiriting: ")
+#     if yosh.isdigit():
+#         yosh = int(yosh)
+#         break
+# print(f"Siz {2025-yosh}-yilda tugilgan ekansiz")
+
+
+
+# try:
+#     x= int(input("son kiriting: "))
+# except ValueError:
+#     print("Butun son kiritmadingiz")
+# try:
+#     y= int(input( "yana bir son kiriting: "))
+# except ValueError:
+#     print("Butun son kiritmadingiz")
+# print(x, '/' , y, '=' ,x/y)
+
+
+
+while True:
+    x = input("Son kiriting: ")
+    if x.isdigit():
+        x=int(x)
+        break
+    else:
+        print("Faqat butun son kiriting")
         
-    
-    
-        
-        
-    
-        
-    
-        
-    
-
-    
-    
-    
-
-
-
-
+while True:
+    y = input("Yana bir son kiriting: ")
+    if y.isdigit():
+        y=int(y)
+        break
+    else:
+        print("Faqat butun son kiriting")
+print(x, '/', y, '=' ,x/y) 
    
+
+
+    
+    
+
+
+  
+
     
 
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
+            
         
-    
-    
-    
-
-        
-
-
-    
-    
     
     
         
         
+    
