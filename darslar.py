@@ -1022,25 +1022,54 @@ Created on Tue Sep  2 08:54:16 2025
 
 
 
-while True:
-    x = input("Son kiriting: ")
-    if x.isdigit():
-        x=int(x)
-        break
-    else:
-        print("Faqat butun son kiriting")
+# while True:
+#     x = input("Son kiriting: ")
+#     if x.isdigit():
+#         x=int(x)
+#         break
+#     else:
+#         print("Faqat butun son kiriting")
         
-while True:
-    y = input("Yana bir son kiriting: ")
-    if y.isdigit():
-        y=int(y)
-        break
-    else:
-        print("Faqat butun son kiriting")
-print(x, '/', y, '=' ,x/y) 
+# while True:
+#     y = input("Yana bir son kiriting: ")
+#     if y.isdigit():
+#         y=int(y)
+#         break
+#     else:
+#         print("Faqat butun son kiriting")
+# print(x, '/', y, '=' ,x/y) 
    
 
+# def salom_ber():
+#     """Salom beruvchi dastur"""
+#     print("Assalomu alaykum , xurmatli foydalanuvchi")
 
+# salom_ber()
+
+# def salom_ber(ism):
+#     """Ism bilan salom beruvchi dastur"""
+#     print(f"Assalomu alaykum , xurmatli {ism.title()}")
+    
+# salom_ber('ali')
+# salom_ber("Asmo")
+
+# def toliq_ism_yoz(ism , familiya):
+#     """Foydalanuvchidan toliq ism qabul qilib oluvchi dastur"""
+#     print(f"Foydalanuvchi ismi : {ism.title()}\n"
+#           f"Foydlanuvchi familiyasi : {familiya.title()}")
+    
+# toliq_ism_yoz('Asmo', 'Usmonova')
+
+
+
+def yosh_hisobla(ism , tugilgan_yil):
+    """Foydalanuvchini yoshini hisobla""" 
+    print(f"{ism.title()} {2025-tugilgan_yil} yoshda")
+    
+yosh_hisobla('Ibrohim', 2007)
+
+
+    
     
     
 
