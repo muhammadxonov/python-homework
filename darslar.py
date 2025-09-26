@@ -1062,11 +1062,60 @@ Created on Tue Sep  2 08:54:16 2025
 
 
 
-def yosh_hisobla(ism , tugilgan_yil):
-    """Foydalanuvchini yoshini hisobla""" 
-    print(f"{ism.title()} {2025-tugilgan_yil} yoshda")
+# def yosh_hisobla(ism , tugilgan_yil):
+#     """Foydalanuvchini yoshini hisobla""" 
+#     print(f"{ism.title()} {2025-tugilgan_yil} yoshda")
     
-yosh_hisobla('Ibrohim', 2007)
+# yosh_hisobla('Ibrohim', 2007)
+
+
+# def tugilgan_yil(ism , yosh):
+#     """Foydalanuvchi ismi va yoshini sorab ,\n
+#     uning tugilgan yilini hisoblaydigan funksiya"""
+#     print(f"{ism.title()} {2025-yosh} yilda tugilgan")
+    
+# tugilgan_yil('Ibrohim', 18)
+
+
+# def hisobla(son):
+#     """Foydalanuvchidan son qabul qilin ,\n
+#     uning kvadrati va kubini hisoblaydigan funksiya"""
+#     print(f"soning kvadrati: {son**2}\n"
+#           f"sonning kubi: {son**3}")
+    
+# hisobla(15)
+
+
+# def tekshir(son):
+#     """Sonni juft yoki toqligini hisoblovchi funksiya"""
+#     while True:
+#         if son%2==0:
+#             print("Siz kiritgan son juft son")
+#             break
+#         else:
+#             print("Siz kiritgan son toq son")
+#             break
+            
+# tekshir(15)
+
+
+def taqqosla(son_1 , son_2):
+    """Sonni katta kichikligini hisoblovchi funksiya"""
+    while True:
+        if son_1>son_2 or son_1<son_2:
+            print(max)
+            break
+        elif son_1==son_2:
+            print("Sonlar teng")
+            break
+        
+taqqosla(5, 3)
+            
+            
+
+
+
+    
 
 
     
