@@ -1099,31 +1099,68 @@ Created on Tue Sep  2 08:54:16 2025
 # tekshir(15)
 
 
-def taqqosla(son_1 , son_2):
-    """Sonni katta kichikligini hisoblovchi funksiya"""
-    while True:
-        if son_1>son_2 or son_1<son_2:
-            print(max)
-            break
-        elif son_1==son_2:
-            print("Sonlar teng")
-            break
+# def taqqosla(son_1 , son_2):
+#     """Sonni katta kichikligini hisoblovchi funksiya"""
+#     while True:
+#         if son_1>son_2 or son_1<son_2:
+#             print(max)
+#             break
+#         elif son_1==son_2:
+#             print("Sonlar teng")
+#             break
         
-taqqosla(5, 3)
+# taqqosla(5, 3)
             
             
+# def toliq_ism_yasa(ism,familiya):
+#     """To'liq ism qaytaruvchi funksiya"""
+#     toliq_ism=f"{ism} {familiya}"
+#     return toliq_ism
+
+# talaba_1=toliq_ism_yasa('olim', 'hakimov')
+# talaba_2=toliq_ism_yasa('hakim','olimov')
+# print(f"Darsga {talaba_1.title()} va {talaba_2.title()} kelmadi")
+# print(f"{talaba_1.title()} darsga kechikib keldi")
 
 
+
+
+# def avto_info(kompaniya, model , rangi , korobka , yili , narh=None):
+#     avto={'kompaniya' : kompaniya,
+#           'model': model,
+#           'rangi': rangi,
+#           'korobka': korobka,
+#           'yili': yili,
+#           'narh': narh}
+#     return avto
+
+
+# avto1=avto_info('GM', 'Malibu', 'Qora', 'avtomat' , 2018)
+# avto2=avto_info('GM', 'Gentra', "Oq", 'Mexanika', 2016 , 15000)
+    
+# avtolar=[avto1 , avto2]
 
     
-
-
+# print("Online bozordagi mavjud avomashinalar:\n")
+# for avto in avtolar:
+#     if avto['narh']:
+#         narh=avto['narh']
+#     else:
+#         narh=("Noma'lum")
+        
     
-    
-    
+#     print(f"{avto['rangi']} {avto['model']} . Narhi : {narh}")
 
 
-  
+
+def oraliq(min , max):
+    sonlar=[]
+    while min<max:
+        sonlar.append(min)
+        min+=1
+    return sonlar
+
+print(oraliq(10, 20))
 
     
 
