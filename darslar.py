@@ -1153,14 +1153,63 @@ Created on Tue Sep  2 08:54:16 2025
 
 
 
-def oraliq(min , max):
-    sonlar=[]
-    while min<max:
-        sonlar.append(min)
-        min+=1
-    return sonlar
+# def oraliq(min , max):
+#     sonlar=[]
+#     while min<max:
+#         sonlar.append(min)
+#         min+=1
+#     return sonlar
 
-print(oraliq(10, 20))
+# print(oraliq(10, 20))
+
+
+
+
+def human_info(ism, familiya, tugilgan_yil, tugilgan_joy, e_mail=None, tel_num=None):
+    human={"Foydalanuvchi ismi":ism,
+          'familiyasi':familiya,
+          'tugilgan yili':tugilgan_yil,
+          'tugilgan joyi':tugilgan_joy,
+          'elektron pochta':e_mail,
+          'tefon raqami':tel_num}
+    return human
+
+
+
+
+
+print("Ozingiz haqingizdagi malumotlarni kiriting.")
+malumotlar=[]#malumotlarni qoshish uchun bo'sh ro'yxat
+while True:
+    print("\nQuyidagi malumotlarni kiriting" , end=' ')
+    ism=input('\nFoydalanuvchi ismini kiriting: ')
+    familiya =input('familiyasi: ') ,
+    tugilgan_yil=input('tugilgan yili: '),
+    tugilgan_joy=input('tugilgan joyi: '),
+    e_mail=input('elektron pochta: '),
+    tel_num=input('telefon raqami: ')
+    #Kiritilgan malumotlarni human_info funksiyasi yordamida 
+    #lugat shakllantirib , royxatga qoshamiz:
+    malumotlar.append(human_info(ism, familiya, tugilgan_yil, tugilgan_joy, e_mail, tel_num))
+    
+    break
+
+print(malumotlar)
+        
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
 
     
 
