@@ -1235,32 +1235,31 @@ Created on Tue Sep  2 08:54:16 2025
         
 
 
-def eng_katta(a, b, c):
+# def eng_katta(a, b, c):
+#     print(max(a, b, c))
     
+# eng_katta(4, 754, 96)
+# eng_katta(85, 18, 9874)
 
 
+def calculate(a):
+    """Tub son qaytaruvchi funksiya"""
+    if a /a==0 or a / 1 == 0:
+        print(a)
+    else:
+        print("Siz kiritgan son 'tub son' emas")
+    return a
 
-    
-    
-
-
-
-
-
-
-
-
-
-
-    
-
-    
-
-            
-            
+calculate(11)
+calculate(7)
+calculate(100)
         
-    
-    
-        
-        
+
+
+
+
+
+
+
+
     
