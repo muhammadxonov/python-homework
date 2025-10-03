@@ -1242,19 +1242,37 @@ Created on Tue Sep  2 08:54:16 2025
 # eng_katta(85, 18, 9874)
 
 
-def calculate(a):
-    """Tub son qaytaruvchi funksiya"""
-    if a /a==0 or a / 1 == 0:
-        print(a)
-    else:
-        print("Siz kiritgan son 'tub son' emas")
-    return a
+# def calculate(a):
+#     """Tub son qaytaruvchi funksiya"""
+#     if a /a=0 or a / 1 = 0:
+#         print(a)
+#     else:
+#         print("Siz kiritgan son 'tub son' emas")
+#     return a
 
-calculate(11)
-calculate(7)
-calculate(100)
+# calculate(11)
+# calculate(7)
+# calculate(100)
         
 
+
+def bahola(ismlar):
+    baholar={}
+    while ismlar:
+        ism=ismlar.pop()
+        baho=input(f"Talaba {ism.title()}ning bahosini kiriting: ")
+        baholar[ism]=baho
+    return baholar
+
+
+talabalar=['ali','asmo','hasan','husan']
+baholar=bahola(talabalar[:])
+print(baholar)
+
+
+
+
+            
 
 
 
