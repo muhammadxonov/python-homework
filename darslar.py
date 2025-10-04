@@ -1256,19 +1256,32 @@ Created on Tue Sep  2 08:54:16 2025
         
 
 
-def bahola(ismlar):
-    baholar={}
-    while ismlar:
-        ism=ismlar.pop()
-        baho=input(f"Talaba {ism.title()}ning bahosini kiriting: ")
-        baholar[ism]=baho
-    return baholar
+# def bahola(ismlar):
+#     baholar={}
+#     while ismlar:
+#         ism=ismlar.pop()
+#         baho=input(f"Talaba {ism.title()}ning bahosini kiriting: ")
+#         baholar[ism]=baho
+#     return baholar
 
 
-talabalar=['ali','asmo','hasan','husan']
-baholar=bahola(talabalar[:])
-print(baholar)
+# talabalar=['asmo','ali','hasan','husan']
+# qoyildi=bahola(talabalar[:])
+# print(qoyildi)
 
+
+
+
+def kopaytir(*sonlar): 
+    kopaytma=1
+    for son in sonlar:
+        kopaytma=son*son
+    return kopaytma
+
+
+print(kopaytir(5,5,3,4))
+        
+        
 
 
 
