@@ -1291,16 +1291,31 @@ Created on Tue Sep  2 08:54:16 2025
 #     malumotlar['familiya']=familiya
 #     return malumotlar
 
+# uzunlik=lambda pi , r: 2*
 
 # info_1=malumot_kirit('ismoil', 'muhammadxonov', yil=2010, t_joy='chust' ,nomer='33-365-90-45')
 # print(info_1)
 
+# import mathpi*r 
+# print(uzunlik(math.pi , 10))
 
 
 
 
+# product = lambda x, y : x ** y 
+# print(product(3,2))
 
 
+# add_1=lambda x: x+1
+
+# result=add_1(5)
+# print(result)
+
+
+def add_1(x,y):
+    return x+y
+
+qosh=add_1(5, 5)
 
 
 
