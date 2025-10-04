@@ -1272,15 +1272,39 @@ Created on Tue Sep  2 08:54:16 2025
 
 
 
-def kopaytir(*sonlar): 
-    kopaytma=1
-    for son in sonlar:
-        kopaytma=son*son
-    return kopaytma
+# def kopaytir(*sonlar):
+#     natija=1 
+#     for son in sonlar:
+#         natija*=son
+#     return natija 
 
-
-print(kopaytir(5,5,3,4))
+# print(kopaytir(5,5,3))
         
+
+
+
+
+
+# def malumot_kirit(ismi,familiya,**malumotlar):
+#     """Talaba haqida malumot yig"""
+#     malumotlar['ismi']=ismi
+#     malumotlar['familiya']=familiya
+#     return malumotlar
+
+
+# info_1=malumot_kirit('ismoil', 'muhammadxonov', yil=2010, t_joy='chust' ,nomer='33-365-90-45')
+# print(info_1)
+
+
+
+
+
+
+
+
+
+
+
         
 
 
