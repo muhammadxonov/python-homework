@@ -1312,15 +1312,21 @@ Created on Tue Sep  2 08:54:16 2025
 # print(result)
 
 
-def add_1(x,y):
-    return x+y
+# def add_1(x,y):
+#     return x+y
 
-qosh=add_1(5, 5)
+# qosh=add_1(5, 5)
+# print(qosh)
 
 
 
+from math import sqrt
+sonlar =list(range(11))#0 dan 10 gacha sonlar royxati
+ildizlar=list(map(sqrt,sonlar))
+print(ildizlar)
 
-        
+
+
 
 
 
