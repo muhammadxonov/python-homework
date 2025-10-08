@@ -1394,22 +1394,23 @@ Created on Tue Sep  2 08:54:16 2025
     
     
 
-def bahola(ismlar):
-     """Talabaning  ismini qabul qilib uni baholovchi dastur"""
-     baholar={}
-     while ismlar:
-         ism=ismlar.pop()
-         baho=input(f"Talaba {ism.title()}ning bahosini kiriting: ")
-         baholar[ism]=baho
-     return baholar
+# def bahola(ismlar):
+#      """Talabaning  ismini qabul qilib uni baholovchi dastur"""
+#      baholar={}
+#      while ismlar:
+#          ism=ismlar.pop()
+#          baho=input(f"Talaba {ism.title()}ning bahosini kiriting: ")
+#          baholar[ism]=baho
+#      return baholar
 
 
-talabalar=['ali','asmo','hasan','husan']
-print(bahola(talabalar[:]))
+# talabalar=['ali','asmo','hasan','husan']
+# print(bahola(talabalar[:]))
+
+
 
 
             
-      
 
 
         
