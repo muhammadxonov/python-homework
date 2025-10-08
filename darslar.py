@@ -1320,10 +1320,102 @@ Created on Tue Sep  2 08:54:16 2025
 
 
 
-from math import sqrt
-sonlar =list(range(11))#0 dan 10 gacha sonlar royxati
-ildizlar=list(map(sqrt,sonlar))
-print(ildizlar)
+# from math import sqrt
+# sonlar =list(range(11))#0 dan 10 gacha sonlar royxati
+# ildizlar=list(map(sqrt,sonlar))
+# print(ildizlar)
+
+
+
+# def hisobla(son_1,son_2):
+#     return son_1+son_2
+
+
+# x=int(input("Birinchi kodni kiriting: "))
+# y=int(input("Ikkinchi sonni kiriting: "))
+
+# natija=hisobla(x, y)
+# print(f"Natijasi: {natija}")
+
+
+
+# def hisobla(x):
+#     """foydalanuvchi kiritgan sonni qabul qilib\
+#         uning juft yoki toqligini qaytaruvchi funksiya"""
+#     if x%2==0:
+#             return("Juft")
+#     else:
+#             return("Toq")
+
+# a=int(input("Juftmi: "))
+# print(hisobla(a))
+
+
+# def taqqosla(a,b,c):
+#     return min(a, b, c)
+
+# a1=int(input("Birinchi sonni kiriting: "))
+# a2=int(input("Ikkinchi sonni kiriting: "))
+# a3=int(input("Uchinchi sonni kiriting: "))
+# print(taqqosla(a1, a2, a3))
+
+
+
+
+# def salom_ber(ism):
+#     """Foydalanuvchidan ism qabul qilib \
+#         unga ismi bilan salom beruvchi dastur"""
+#     return f"Salom {ism.title()}"
+# ism=input("Ismingizni kiriting: ")
+# print(salom_ber(ism))
+
+
+
+
+# def yigindi_list(*sonlar):
+#     natija=0 
+#     for son in sonlar:
+#         natija+=son
+#     return [natija]
+
+
+# print(yigindi_list(10,5,3,7))
+
+
+
+# def kopaytma(*sonlar):
+#     natija=1 
+#     for son in sonlar:
+#         natija*=son
+#     return natija 
+
+# print(kopaytma(4,2,3))
+
+    
+    
+
+def bahola(ismlar):
+     """Talabaning  ismini qabul qilib uni baholovchi dastur"""
+     baholar={}
+     while ismlar:
+         ism=ismlar.pop()
+         baho=input(f"Talaba {ism.title()}ning bahosini kiriting: ")
+         baholar[ism]=baho
+     return baholar
+
+
+talabalar=['ali','asmo','hasan','husan']
+print(bahola(talabalar[:]))
+
+
+            
+      
+
+
+        
+
+
+
 
 
 
