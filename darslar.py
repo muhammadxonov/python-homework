@@ -1407,20 +1407,72 @@ Created on Tue Sep  2 08:54:16 2025
 # talabalar=['ali','asmo','hasan','husan']
 # print(bahola(talabalar[:]))
 
-             
-                    
 
 
+
+
+
+import random
+
+def son_top(x):
+    """Foydalanuvchi pc oylagan kodni topadi"""
+    tanla = random.randint(1 , x)  #tasodifiy son tanla
+    print(f"Men 1 dan {x} gacha bo'lgan sonni o'yladim , topa olasizmi?")
+    sikl=0
+    while True:
+        sikl+=1 
+        variant=int(input(">>  "))
+        if variant  < tanla:
+            print("Men o'ylagan son bundan katta")
+        elif variant > tanla:
+            print("Men tanlagan son bundan kichik")
+        else:
+            print(f"TOPDINGIZ. {tanla} sonini o'ylagan edim. {sikl}ta taxmin bilan topdingiz!!")
+            break
+        
+# son_top(100)
+
+
+
+
+def son_top_pc(x):
+    """Foydalanuvchi oylagan sonni topovchi dastur"""
+    print(f"1 dan {x}gacha bo'lgan sonni oylang . Men topishga xarakat qilaman")
+    sora=input("\nSon oylagan bo'sangiz istalgan tugmani bosing va so'ng ENTER ni bosing.")
+    past, yuqori = 1, x
+    sikl_1=0
+    while True:
+        sikl_1+=1 
+        variant=random.randint(past , yuqori)
+        urinish=input(f"Siz {variant} sonini o'yladingiz:to'g'ri (T), men o'ylagan son bundan kattaroq (+), yoki kichikroq(-)??  \n")
+        if urinish== 't' or urinish== "T":
+            print(f"\nSoningizni {sikl_1} urinish bilan topdim !\nSiz o'ylagan son : {variant}")
+            break
+        elif urinish == "+":
+            yuqori=variant+ 1 
+        elif urinish == "-":
+            past=variant- 1     
+            
+            
+            
+        
+# son_top_pc(10)
+ 
+
+print("Keling o'ylagan sonni topish oyinini o'ynaymiz !\n")
+while True:
+    son_top(10)
+    son_top_pc(10)
+    if sikl == sikl_1:
+        print(f"Durrang ! Ikkimiz xam {sikl}ta taxmin bilan topdik")
+    elif sikl > sikl_1:
+        print(f"TABRIKLAYMAN ! siz yutdingiz")
+    else:
+        print("Men yutdim")
         
 
-
-
-
-
-
-
-
-
+            
+        
             
 
 
