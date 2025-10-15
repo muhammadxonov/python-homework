@@ -1429,6 +1429,8 @@ def son_top(x):
         else:
             print(f"TOPDINGIZ. {tanla} sonini o'ylagan edim. {sikl}ta taxmin bilan topdingiz!!")
             break
+    return sikl
+
         
 # son_top(100)
 
@@ -1451,7 +1453,9 @@ def son_top_pc(x):
         elif urinish == "+":
             yuqori=variant+ 1 
         elif urinish == "-":
-            past=variant- 1     
+            past=variant- 1    
+    return sikl_1
+
             
             
             
@@ -1461,14 +1465,20 @@ def son_top_pc(x):
 
 print("Keling o'ylagan sonni topish oyinini o'ynaymiz !\n")
 while True:
-    son_top(10)
-    son_top_pc(10)
+    sikl=son_top(10)
+    sikl_1=son_top_pc(10)
     if sikl == sikl_1:
         print(f"Durrang ! Ikkimiz xam {sikl}ta taxmin bilan topdik")
+    elif sikl < sikl_1:
+        print("TABRIKLAYMAN ! siz yutdingiz")
     elif sikl > sikl_1:
-        print(f"TABRIKLAYMAN ! siz yutdingiz")
-    else:
         print("Men yutdim")
+        
+        
+    yana = input("\nYana o'ynaymizmi(yes/no)?")
+    if yana.lower()!='yes':
+        break
+    
         
 
             
